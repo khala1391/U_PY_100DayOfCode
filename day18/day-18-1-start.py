@@ -24,8 +24,8 @@ import turtle as t
 # import turtle as t
 # tim = t.Turtle()
 
-import heroes
-print(heroes.gen())
+# import heroes
+# print(heroes.gen())
 
 ######## Challenge 1 - Draw a Square ############
 
@@ -34,4 +34,3 @@ timmy = t.Turtle()
 for _ in range(4):
     timmy.forward(100)
     timmy.right(90)
-

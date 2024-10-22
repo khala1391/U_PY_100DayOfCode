@@ -9,7 +9,7 @@ tim = t.Turtle()
 colours = ["CornflowerBlue", "DarkOrchid", "IndianRed", "DeepSkyBlue", "LightSeaGreen", "wheat", "SlateGray", "SeaGreen"]
 
 def draw_shape(num_sides):
-    tim.speed(10)
+    tim.speed(2)
     angle = 360/num_sides
     for i in range(num_sides):
         tim.forward(100)
