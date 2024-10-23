@@ -1,2 +1,0 @@
-for only this task
-revert cwd to this folder before running

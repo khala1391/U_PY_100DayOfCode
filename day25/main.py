@@ -66,7 +66,7 @@ print(data)
 # data.to_csv("day25/new_data.csv")
 
 
-# ---------------
+# ---------------------------------------------------- 
 import pandas as pd
 
 data = pd.read_csv("day25/squirrel/2018_Central_Park_Squirrel_Census_-_Squirrel_Data.csv")
