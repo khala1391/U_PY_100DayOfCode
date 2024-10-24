@@ -42,6 +42,19 @@ result = scores.get('Physics')
 
 print(result)    # 67
 # ---------------------------------------------------- 
+# day19
+def add(n1, n2):
+    return n1 + n2
+
+
+def subtract(n1, n2):
+    return n1 - n2
+
+
+def calculator(n1, n2, func):
+    return func(n1, n2)
+
+# ---------------------------------------------------- 
 def add(n):
     return n+n
 

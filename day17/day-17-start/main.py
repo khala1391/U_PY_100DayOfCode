@@ -1,11 +1,13 @@
 class User:
 
+    # attribute
     def __init__(self,user_id, username):
         self.id = user_id
         self.username = username
         self.followers = 10  # default but not input required
         self.following = 20
-
+    
+    # method
     def follow(self, user):
         user.followers += 1
         self.following += 1

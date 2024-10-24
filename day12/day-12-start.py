@@ -43,3 +43,15 @@ def increase_enemies():
   return enemies + 1   # use return
 enemies = increase_enemies() # replace new value to global var
 print(f"enemies outside function: {enemies}")
+
+
+# no block scope
+
+a = 2
+
+print(f'before if a: {a}')
+
+if True:
+  a = 10
+
+print(f'after if a: {a}')
