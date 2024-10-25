@@ -15,7 +15,8 @@ for n in numbers:
 new_list2 = [n + 3 for n in numbers]
 print(new_list2)
 
-print("-------------------------------------")
+print('-------------------------------------')
+
 
 name = "AngelaAngela"
 letter_list = [i for i in name]
