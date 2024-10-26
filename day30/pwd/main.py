@@ -84,6 +84,16 @@ def save():
             website_entry.delete(0, END)
             password_entry.delete(0, END)
 
+# # Challenge# 2
+# add search button
+# adjust layout
+# create function find_password, get trigger from search button
+# check text entry with data.json
+# if yes, show message box with output
+# catch exception from search without existing database 'no data file found'
+# return msg box for search not exist in database 'no details for website exist'
+
+
 
 # ---------------------------- UI SETUP ------------------------------- #
 
