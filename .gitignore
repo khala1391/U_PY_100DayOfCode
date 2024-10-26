@@ -1,4 +1,5 @@
 /gitignore
 /.ipynb_checkpoints
-/day32/birthday-wisher/main.py
+/day32/birthday-wisher/main_birthday.py
+/day32/quote/main_quote.py
 /day33/main_satellite.py
