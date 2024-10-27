@@ -16,6 +16,10 @@ import json
 # # update
 # json.update()
 
+
+## write in string format
+# json.dumps
+
 # ---------------------------- PASSWORD GENERATOR ------------------------------- #
 
 #Password Generator Project

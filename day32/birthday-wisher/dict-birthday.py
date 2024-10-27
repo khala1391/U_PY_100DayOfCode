@@ -24,7 +24,7 @@ print(birthday_dict)  # poor format
 print('-------------------------------------')
 pprint.pprint(birthday_dict)  # print dict with pretty format
 print('-------------------------------------')
-print(json.dumps(birthday_dict, indent=4))  #convert dict to json
+print(json.dumps(birthday_dict, indent=4))  #convert dict to json string
 
 
 
