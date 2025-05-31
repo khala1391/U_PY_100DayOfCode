@@ -5,26 +5,26 @@
 #     data = [datum.strip() for datum in data]
 #     print(data)
 
-import csv
+# import csv
 
-with open("./weather_data.csv") as data_file:
-    data = csv.reader(data_file)
-    temperature = []
-    # for row in data:
-    #     print(row)
-    for i, row in enumerate(data):
-        # if row[1] != "temp":
-        if i > 0:
-            # temperature.append(row[0])
-            temperature.append(int(row[1]))
-    print(temperature)
+# with open("./weather_data.csv") as data_file:
+#     data = csv.reader(data_file)
+#     temperature = []
+#     # for row in data:
+#     #     print(row)
+#     for i, row in enumerate(data):
+#         # if row[1] != "temp":
+#         if i > 0:
+#             # temperature.append(row[0])
+#             temperature.append(int(row[1]))
+#     print(temperature)
     
 # ------------------------
 
 
 # import pandas as pd
 
-# data = pd.read_csv("day25/weather_data.csv")
+# data = pd.read_csv("./weather_data.csv")
 # print(data)
 
 # print(data['temp'])
@@ -69,24 +69,25 @@ with open("./weather_data.csv") as data_file:
 
 
 # ---------------------------------------------------- 
-# import pandas as pd
+import pandas as pd
 
-# data = pd.read_csv("day25/squirrel/2018_Central_Park_Squirrel_Census_-_Squirrel_Data.csv")
+data = pd.read_csv("./squirrel/2018_Central_Park_Squirrel_Census_-_Squirrel_Data.csv")
 
-# data.columns
+data.head(5)
 
-# grey_squirrels_count = len(data[data['Primary Fur Color'] == "Gray"])
-# red_squirrels_count = len(data[data['Primary Fur Color'] == "Cinnamon"])
-# black_squirrels_count = len(data[data['Primary Fur Color'] == "Black"])
+grey_squirrels_count = len(data[data['Primary Fur Color'] == "Gray"])
+red_squirrels_count = len(data[data['Primary Fur Color'] == "Cinnamon"])
+black_squirrels_count = len(data[data['Primary Fur Color'] == "Black"])
 
-# grey_squirrels_count
-# red_squirrels_count
-# black_squirrels_count
+grey_squirrels_count
+red_squirrels_count
+black_squirrels_count
 
-# data_dict = {
-#     "Fur Color":  ["Gray", "Cinnamon", "Black"],
-#     "Count": [grey_squirrels_count,red_squirrels_count,black_squirrels_count]
-# }
+data_dict = {
+    "Fur Color":  ["Gray", "Cinnamon", "Black"],
+    "Count": [grey_squirrels_count,red_squirrels_count,black_squirrels_count]
+}
 
-# df = pd.DataFrame(data_dict)
-# df.to_csv("day25/squirrel/squirrel_count_ojt.csv")
+df = pd.DataFrame(data_dict)
+df.to_csv("./squirrel/squirrel_count_ojt.csv")
+print('done')
