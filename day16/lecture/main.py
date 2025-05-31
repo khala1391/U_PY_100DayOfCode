@@ -3,7 +3,7 @@ table = PrettyTable()
 
 from prettytable import from_csv
 
-with open("day16/new_data.csv") as fp:
+with open("new_data.csv") as fp:
     mytable = from_csv(fp)
 
 print(mytable)
