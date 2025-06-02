@@ -1,0 +1,236 @@
+{
+  "cod": "200",
+  "message": 0,
+  "cnt": 6,
+  "list": [
+    {
+      "dt": 1748822400,
+      "main": {
+        "temp": 28.82,
+        "feels_like": 35.53,
+        "temp_min": 28.82,
+        "temp_max": 29.05,
+        "pressure": 1008,
+        "sea_level": 1008,
+        "grnd_level": 1007,
+        "humidity": 86,
+        "temp_kf": -0.23
+      },
+      "weather": [
+        {
+          "id": 802,
+          "main": "Clouds",
+          "description": "scattered clouds",
+          "icon": "03d"
+        }
+      ],
+      "clouds": {
+        "all": 44
+      },
+      "wind": {
+        "speed": 2.59,
+        "deg": 207,
+        "gust": 6.13
+      },
+      "visibility": 10000,
+      "pop": 0,
+      "sys": {
+        "pod": "d"
+      },
+      "dt_txt": "2025-06-02 00:00:00"
+    },
+    {
+      "dt": 1748833200,
+      "main": {
+        "temp": 31.53,
+        "feels_like": 38.4,
+        "temp_min": 31.53,
+        "temp_max": 32.94,
+        "pressure": 1009,
+        "sea_level": 1009,
+        "grnd_level": 1008,
+        "humidity": 68,
+        "temp_kf": -1.41
+      },
+      "weather": [
+        {
+          "id": 803,
+          "main": "Clouds",
+          "description": "broken clouds",
+          "icon": "04d"
+        }
+      ],
+      "clouds": {
+        "all": 63
+      },
+      "wind": {
+        "speed": 4.83,
+        "deg": 221,
+        "gust": 7
+      },
+      "visibility": 10000,
+      "pop": 0,
+      "sys": {
+        "pod": "d"
+      },
+      "dt_txt": "2025-06-02 03:00:00"
+    },
+    {
+      "dt": 1748844000,
+      "main": {
+        "temp": 34.86,
+        "feels_like": 39.23,
+        "temp_min": 34.86,
+        "temp_max": 34.86,
+        "pressure": 1008,
+        "sea_level": 1008,
+        "grnd_level": 1007,
+        "humidity": 47,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 803,
+          "main": "Clouds",
+          "description": "broken clouds",
+          "icon": "04d"
+        }
+      ],
+      "clouds": {
+        "all": 83
+      },
+      "wind": {
+        "speed": 5.96,
+        "deg": 241,
+        "gust": 8.34
+      },
+      "visibility": 10000,
+      "pop": 0,
+      "sys": {
+        "pod": "d"
+      },
+      "dt_txt": "2025-06-02 06:00:00"
+    },
+    {
+      "dt": 1748854800,
+      "main": {
+        "temp": 32.86,
+        "feels_like": 36.29,
+        "temp_min": 32.86,
+        "temp_max": 32.86,
+        "pressure": 1006,
+        "sea_level": 1006,
+        "grnd_level": 1005,
+        "humidity": 51,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 804,
+          "main": "Clouds",
+          "description": "overcast clouds",
+          "icon": "04d"
+        }
+      ],
+      "clouds": {
+        "all": 89
+      },
+      "wind": {
+        "speed": 5.25,
+        "deg": 239,
+        "gust": 8.44
+      },
+      "visibility": 10000,
+      "pop": 0,
+      "sys": {
+        "pod": "d"
+      },
+      "dt_txt": "2025-06-02 09:00:00"
+    },
+    {
+      "dt": 1748865600,
+      "main": {
+        "temp": 29.17,
+        "feels_like": 31.32,
+        "temp_min": 29.17,
+        "temp_max": 29.17,
+        "pressure": 1007,
+        "sea_level": 1007,
+        "grnd_level": 1007,
+        "humidity": 60,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 803,
+          "main": "Clouds",
+          "description": "broken clouds",
+          "icon": "04n"
+        }
+      ],
+      "clouds": {
+        "all": 82
+      },
+      "wind": {
+        "speed": 3.86,
+        "deg": 226,
+        "gust": 8.46
+      },
+      "visibility": 10000,
+      "pop": 0,
+      "sys": {
+        "pod": "n"
+      },
+      "dt_txt": "2025-06-02 12:00:00"
+    },
+    {
+      "dt": 1748876400,
+      "main": {
+        "temp": 28.95,
+        "feels_like": 31.91,
+        "temp_min": 28.95,
+        "temp_max": 28.95,
+        "pressure": 1009,
+        "sea_level": 1009,
+        "grnd_level": 1008,
+        "humidity": 66,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 804,
+          "main": "Clouds",
+          "description": "overcast clouds",
+          "icon": "04n"
+        }
+      ],
+      "clouds": {
+        "all": 98
+      },
+      "wind": {
+        "speed": 2.99,
+        "deg": 230,
+        "gust": 7.58
+      },
+      "visibility": 10000,
+      "pop": 0,
+      "sys": {
+        "pod": "n"
+      },
+      "dt_txt": "2025-06-02 15:00:00"
+    }
+  ],
+  "city": {
+    "id": 1620706,
+    "name": "Bang Phlat",
+    "coord": {
+      "lat": 13.8064,
+      "lon": 100.5064
+    },
+    "country": "TH",
+    "population": 1000,
+    "timezone": 25200,
+    "sunrise": 1748818164,
+    "sunset": 1748864569
+  }
+}

@@ -1,5 +1,7 @@
 /gitignore
 /.ipynb_checkpoints
-/day32/birthday-wisher/main_birthday.py
-/day32/quote/main_quote.py
-/day33/main_satellite.py
+/day32_datetime/birthday-wisher/main_birthday.py
+/day32_datetime/quote/main_quote.py
+/day33_API_sunset_satellite/main_satellite.py
+/day35_Authen_EnviVar_SMS/weather.ipynb
+/day36_NewsAPI
