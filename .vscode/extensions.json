@@ -1,6 +1,7 @@
 {
     "recommendations": [
         "samuelcolvin.jinjahtml",
-        "anbuselvanrocky.bootstrap5-vscode"
+        "anbuselvanrocky.bootstrap5-vscode",
+        "pranaygp.vscode-css-peek"
     ]
 }

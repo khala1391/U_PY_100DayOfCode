@@ -1,0 +1,16 @@
+web scrape
+
+https://pokemondb.net/pokedex/game/x-y
+
+class, object
+class __init__
+class inherit
+class Fish(Animal):
+    def __init__(self):
+         super().__init___
+
+
+https://data.cityofnewyork.us/Environment/2018-Central-Park-Squirrel-Census-Squirrel-Data/vfnx-vebw/about_data
+
+*arg: many positional argument
+**kwarg: many keyword argument
