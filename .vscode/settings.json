@@ -1,5 +1,5 @@
 {
-    "livePreview.defaultPreviewPath": "/day41_html/test.html",
+    "livePreview.defaultPreviewPath": "/day59_blog_bootstrap/templates/header.html",
     "python-envs.defaultEnvManager": "ms-python.python:conda",
     "python-envs.defaultPackageManager": "ms-python.python:conda",
     "python-envs.pythonProjects": []
