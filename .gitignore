@@ -12,4 +12,14 @@
 /OOO
 /course
 /example_streamlit
-/ST_iris/venv
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+/*/venv/
+/**/venv/
